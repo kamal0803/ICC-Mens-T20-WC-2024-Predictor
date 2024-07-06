@@ -24,7 +24,6 @@ With data extraction, 16 feautures were extracted (out of which some were ignore
 14. Team 2 Total WCs participation (till one day before the start of each WC)
 15. Team 2 Total WCs won (till one day before the start of each WC)
 16. Team 1 win % over Team 2 (leading upto that match including all T-20 Int matches played outside WCs too)
-![image](https://github.com/kamal0803/ICC-Mens-T20-WC-2024-Predictor/assets/42574558/5b089e9f-d61c-48d7-9215-0ce476690d1d)
 
 ## Data sources -
 As an example, results of all matches played in ICC T20 World Cup 2007 was available on https://www.espncricinfo.com/records/season/team-match-results/2007to08-2007to08?trophy=89
