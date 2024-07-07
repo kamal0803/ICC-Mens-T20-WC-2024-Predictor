@@ -42,6 +42,6 @@ and as an example, the players from India who participated in ICC T20 World Cup 
 Columns such as 'Margin', 'Match Date', 'Ground', 'T-20 Int Match' were removed from the training dataset. The Super-Eight Fixtures of the 2024 WC were separated out, and were part of the test dataset. Feature Scaling and Encoding of categorical variables was performed.
 
 ## Building Machine Learning Models
-After data pre-processing, accuracy, F1 score, precision, and recall was calculated for various classification models such as Logistic Regression, Random Forest Classifier, SVM, Naive Bayes, Kernel SVM, K-Nearest Neighbours, and Decision Tree Classifier. 
+After data pre-processing, accuracy, F1 score, precision, and recall was calculated for various classification models such as **Logistic Regression**, **Random Forest Classifier**, **SVM**, **Naive Bayes**, **Kernel SVM**, **K-Nearest Neighbours**, and **Decision Tree Classifier**. 
 
-Out of all these, the best was Logistic Regression in terms of closeness to the actual match results, and second best was Random Forest Classifier.
+Out of all these, the best was **Logistic Regression** in terms of closeness to the actual match results, and second best was **Random Forest Classifier**.
