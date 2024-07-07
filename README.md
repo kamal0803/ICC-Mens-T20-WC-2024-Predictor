@@ -32,6 +32,16 @@ Further to make this consistent with data in all_t20_world_cup_players_list.xlsx
 
 Effectively, countries such as USA, UAE & PNG using abbreviations at some data sets, and full forms at other, this manual touch point took care of everything by using a standard name of UAE, USA & PNG whenever required. 
 
-## Data sources -
+### Data sources -
 As an example, results of all matches played in ICC T20 World Cup 2007 was available on https://www.espncricinfo.com/records/season/team-match-results/2007to08-2007to08?trophy=89
 and as an example, the players from India who participated in ICC T20 World Cup 2007 was available on  https://www.espncricinfo.com/series/icc-world-twenty20-2007-08-286109/india-squad-305846/series-squads
+
+# Predicting Results
+
+## Data Pre-processing
+Removed columns such as 'Margin', 'Match Date', 'Ground', 'T-20 Int Match' from the training dataset. The Super-Eight Fixtures of the 2024 WC were separated out, and were part of the test dataset. Feature Scaling and Encoding of categorical variables was performed.
+
+## Building Machine Learning Models
+After data pre-processing, accuracy, F1 score, precision, and recall was calculated for various classification models such as Logistic Regression, Random Forest Classifier, SVM, Naive Bayes, Kernel SVM, K-Nearest Neighbours, and Decision Tree Classifier. 
+
+Out of all these, the best was Logistic Regression in terms of closeness to the actual match results, and second best was Random Forest Classifier.
