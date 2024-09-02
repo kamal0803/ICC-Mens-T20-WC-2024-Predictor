@@ -2,7 +2,7 @@ A machine learning model to predict the winner of the ICC Mens T20 World Cup 202
 
 # Data Extraction
 **BeautifulSoup** was used to extract the data of each historic ICC T20 Mens World Cup. The features extracted were - Teams involved, Winner, Margin, Ground where the match is played, Match date, T20 Int #.
-This comprised of the master dataset. Additional features such as - each teams's avg. batting and bowling ranking was calculated basis one day prior of the match from the official page of ICC Rankings (https://www.relianceiccrankings.com/datespecific/t20/batting/2024/07/06/ for batting and https://www.relianceiccrankings.com/datespecific/t20/bowling/2024/07/06/ for bowling). Each team's WC participation and total WCs won was recorded manually from Cricinfo basis on the day the match was played, and for each match the win % of one team over the other leading upto that match was recorded manually
+This comprised of the master dataset. Additional features such as - each teams's avg. batting and bowling ranking was calculated basis one day prior of the match from the official page of ICC Rankings (https://www.relianceiccrankings.com/datespecific/t20/batting/2024/07/06/ for batting as ane example and https://www.relianceiccrankings.com/datespecific/t20/bowling/2024/07/06/ for bowling as an example) using BeautifulSoup. Each team's WC participation and total WCs won was recorded manually from Cricinfo basis on the day the match was played, and for each match the win % of one team over the other leading upto that match was recorded manually
 using Cricinfo's popular Statsguru (https://stats.espncricinfo.com/ci/engine/stats/index.html).
 
 With data extraction, 16 feautures were extracted (out of which some were ignored later for training the model) - 
