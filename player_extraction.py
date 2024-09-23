@@ -42,7 +42,7 @@ class AllWCsPlayers:
                     continue
 
         df = df.drop(0, axis=1)
+        df.reset_index(drop=True, inplace=True)
         df.to_excel('all_t20_world_cup_players_list.xlsx', index=False)
 
         return df
-
