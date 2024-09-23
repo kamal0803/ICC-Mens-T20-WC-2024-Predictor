@@ -24,14 +24,6 @@ With data extraction, 16 feautures were extracted (out of which some were ignore
 15. Team 2 Total WCs won (till one day before the start of each WC)
 16. Team 1 win % over Team 2 (leading upto that match including all T-20 Int matches played outside WCs too)
 
-#### Manual Touch Points
-
-After running master_dataset.py, data inconsistencies in Team's name was seen, which was corrected manually, such as U.A.E was corrected to UAE, P.N.G was corrected to PNG, U.S.A was corrected to USA
-in all_t20_world_cup_matches_results.xlsx
-Further to make this consistent with data in all_t20_world_cup_players_list.xlsx, changes in all_t20_world_cup_players_list was also made, such as United Arab Emirates was corrected to UAE, United States of America was corrected to USA, and Papa New Guinea.
-
-Effectively, countries such as USA, UAE & PNG using abbreviations at some data sets, and full forms at other, this manual touch point took care of everything by using a standard name of UAE, USA & PNG whenever required. 
-
 ### Data sources -
 As an example, results of all matches played in ICC T20 World Cup 2007 was available on https://www.espncricinfo.com/records/season/team-match-results/2007to08-2007to08?trophy=89
 and as an example, the players from India who participated in ICC T20 World Cup 2007 was available on  https://www.espncricinfo.com/series/icc-world-twenty20-2007-08-286109/india-squad-305846/series-squads
