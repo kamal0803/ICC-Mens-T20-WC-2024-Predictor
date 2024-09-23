@@ -178,7 +178,7 @@ all_WCs_teams = {
         '2022': 'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2022-23-1298134/pakistan-squad-1334804/series-squads',
         '2024': 'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166/pakistan-squad-1435201/series-squads'
     },
-    'Papua New Guinea': {
+    'P.N.G.': {
         '2007': '',
         '2009': '',
         '2010': '',
@@ -222,7 +222,7 @@ all_WCs_teams = {
         '2022': 'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2022-23-1298134/sri-lanka-squad-1335180/series-squads',
         '2024': 'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166/sri-lanka-squad-1433061/series-squads'
     },
-    'United Arab Emirates': {
+    'U.A.E.': {
         '2007': '',
         '2009': '',
         '2010': '',
@@ -244,7 +244,7 @@ all_WCs_teams = {
         '2022': '',
         '2024': 'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166/uganda-squad-1432588/series-squads'
     },
-    'United States of America': {
+    'U.S.A.': {
         '2007': '',
         '2009': '',
         '2010': '',
@@ -305,13 +305,12 @@ country_code = {
     'AFG': 'Afghanistan',
     'IRE': 'Ireland',
     'HK': 'Hong Kong',
-    'UAE': 'United Arab Emirates',
+    'UAE': 'U.A.E',
     'OMA': 'Oman',
     'NEP': 'Nepal',
-    'PNG': 'Papua New Guinea'
+    'PNG': 'P.N.G'
 }
 inverse_country_code = {v: k for k, v in country_code.items()}
-
 
 t20_wc_masterdataset = AllT20WCMasterDataSet(wc_URLs)
 df_master_dataset = t20_wc_masterdataset.create_master_dataset()
