@@ -27,11 +27,14 @@ class AllT20WCMasterDataSet:
                     df.loc[k, columns[j]] = rows[i].find_all(name="span")[j].text
                 k = k + 1
 
+
         df = df[df['Team1'] != 'Team 1']
         df = df.drop(0, axis=1)
         df = df.drop('Ground 2', axis=1)
         df = df.drop('T-20 Int Match 2', axis=1)
         df['Match Date'] = pd.to_datetime(df['Match Date']).dt.strftime('%Y/%m/%d')
+        df.reset_index(drop=True, inplace=True)
+
         df.to_excel('all_t20_world_cup_matches_results.xlsx', index=False)
 
         return df
