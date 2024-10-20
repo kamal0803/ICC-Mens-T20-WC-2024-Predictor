@@ -36,4 +36,4 @@ Columns such as 'Margin', 'Match Date', 'Ground', 'T-20 Int Match' were removed 
 ## Building Machine Learning Models
 After data pre-processing, accuracy, F1 score, precision, and recall was calculated for various classification models such as **Logistic Regression**, **Random Forest Classifier**, **SVM**, **Naive Bayes**, **Kernel SVM**, **K-Nearest Neighbours**, and **Decision Tree Classifier**. 
 
-Out of all these, the best was **Logistic Regression** in terms of closeness to the actual match results, and second best was **Random Forest Classifier**.
+Out of all these, the best was **Logistic Regression** in terms of closeness to the actual match results, and second best was **Decision Tree Classifier**. The DT Classifier model performed very poorly when built initially, with a very high training accuracy (100%), but low testing accuracy (36%). This clearly indicated high variance (overfit), hence it was optimized using various hyperparameters using GridSearchCV, post which a testing accuracy of 64% was obtained.
